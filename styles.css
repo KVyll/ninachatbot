@@ -1,0 +1,89 @@
+/* Reset CSS untuk menghapus margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Warna latar belakang */
+    display: flex;
+    justify-content: center; /* Mengatur posisi elemen di tengah secara horizontal */
+    align-items: center; /* Mengatur posisi elemen di tengah secara vertikal */
+    height: 100vh; /* Mengatur tinggi body agar memenuhi viewport */
+}
+
+/* Gaya untuk chat box */
+#chat-box {
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Mengatur isi chat box secara vertikal */
+}
+
+/* Gaya untuk input pengguna */
+#user-input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px; /* Menambahkan spasi atas */
+}
+
+/* Gaya untuk tombol kirim */
+#send-button {
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px; /* Menambahkan spasi atas */
+}
+
+#send-button:hover {
+    background-color: #3e8e41;
+}
+
+/* Gaya untuk pesan chat */
+.chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-message:last-child {
+    border-bottom: none;
+}
+
+.chat-message .user {
+    font-weight: bold;
+    color: #337ab7;
+}
+
+.chat-message .bot {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.but_hapus {
+    width: 100px;
+    height: 30px;
+    background-color: #e23d3d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px; 
+}

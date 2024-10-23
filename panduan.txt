@@ -1,0 +1,29 @@
+Informasi Detail Destinasi:
+
+Deskripsi: Menyediakan deskripsi singkat tentang setiap destinasi, termasuk budaya, makanan khas, dan aktivitas yang dapat dilakukan.
+Implementasi: Tambahkan properti deskripsi pada setiap objek destinasi.
+Rekomendasi Berdasarkan Minat:
+
+Deskripsi: Pengguna dapat memilih untuk mendapatkan rekomendasi berdasarkan minat tertentu, seperti pantai, budaya, atau kuliner.
+Implementasi: Tambahkan parameter minat dalam fungsi rekomendasi.
+Daftar Acara atau Festival:
+
+Deskripsi: Memberikan informasi tentang acara atau festival yang akan datang di setiap destinasi.
+Implementasi: Tambahkan daftar acara pada setiap objek destinasi.
+Fitur Tanya Jawab:
+
+Deskripsi: Pengguna dapat menanyakan berbagai hal tentang destinasi, seperti cuaca, transportasi, atau tempat makan.
+Implementasi: Tambahkan logika untuk menangani pertanyaan umum.
+Pengingat atau Bookmark:
+
+Deskripsi: Pengguna dapat menyimpan rekomendasi destinasi atau tempat wisata untuk referensi di masa depan.
+Implementasi: Simpan data dalam localStorage atau sesi.
+
+
+Command : 
+Halo :
+selamat tinggal/goodbye :
+rekomendasi makanan :
+rekomendasi tempat staycation/rekomendasi tempat liburan/rekomendasi destinasi wisata :
+
+Sertakan Command di atas untuk mendapatkan jawaban
